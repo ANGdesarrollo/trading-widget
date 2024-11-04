@@ -39,6 +39,7 @@ window.addEventListener('DOMContentLoaded', () => {
         });
 
     // Establece los datos de las velas japonesas en la serie
+    // @ts-ignore
     candlestickSeries.setData(candlestickData);
 
     // Configuración de la serie de la EMA
@@ -59,6 +60,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     // Establece los datos de la EMA en la serie de línea
+    // @ts-ignore
     emaSeries.setData(emaData);
 
     // Ajusta el contenido de la escala de tiempo para que se ajuste al gráfico
